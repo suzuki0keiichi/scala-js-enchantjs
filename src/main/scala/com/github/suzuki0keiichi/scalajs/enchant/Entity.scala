@@ -4,6 +4,30 @@ import scala.scalajs.js.annotation.JSName
 import scala.scalajs.js
 
 @JSName("enchant.Entity")
+object Entity extends js.Object {
+
+  def alignBottomIn(another: js.Object, margin: Int) = sys.error("stub")
+
+  def alignBottomOf(another: js.Object, margin: Int) = sys.error("stub")
+
+  def alignHorizontalCenterIn(another: js.Object, margin: Int) = sys.error("stub")
+
+  def alignLeftIn(another: js.Object, margin: Int) = sys.error("stub")
+
+  def alignLeftOf(another: js.Object, margin: Int) = sys.error("stub")
+
+  def alignRightIn(another: js.Object, margin: Int) = sys.error("stub")
+
+  def alignRightOf(another: js.Object, margin: Int) = sys.error("stub")
+
+  def alignTopIn(another: js.Object, margin: Int) = sys.error("stub")
+
+  def alignTopOf(another: js.Object, margin: Int) = sys.error("stub")
+
+  def alignVerticalCenterIn(another: js.Object, margin: Int) = sys.error("stub")
+}
+
+@JSName("enchant.Entity")
 class Entity() extends Node() {
   var backgroundColor: String = ???
   var buttonMode: String = ???

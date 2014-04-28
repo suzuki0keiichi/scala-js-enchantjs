@@ -7,6 +7,8 @@ import scala.scalajs.js
 object Core extends js.Object {
 
   def findExt(path: String): js.Object = sys.error("stub")
+
+  def initialize() = sys.error("stub")
 }
 
 @JSName("enchant.Core")
@@ -53,4 +55,8 @@ class Core(_width: Int, _height: Int) extends EventTarget() {
   def start(): Deferred = sys.error("stub")
 
   def stop() = sys.error("stub")
+
+  def transitionPop(): Scene = sys.error("stub")
+
+  def transitionPush(scene: Scene): Scene = sys.error("stub")
 }
